@@ -166,6 +166,8 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
   let services = await fetchServices(COUNTRY_ID, currentLocale.url)
   services.sort((a, b) => a.name.normalize().localeCompare(b.name.normalize()))
 
+  services = services.filter(s => s.provider != null)
+
   services = services.map(s => {
     if (!s.data_i18n) {
       s.data_i18n = [{

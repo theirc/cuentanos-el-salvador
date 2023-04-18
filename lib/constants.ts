@@ -30,6 +30,7 @@ export const CATEGORY_ICON_NAMES: { [key: string]: string } = {
   '7447642330781': 'local_hospital',
   '7447677591325': 'work',
   '7448472101917': 'perm_device_information',
+  '9995215841565': 'account_balance',
 };
 
 // A mapping from section ID to a Material icon for that section.

@@ -753,10 +753,10 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@directus/sdk@^10.3.3":
-  version "10.3.5"
-  resolved "https://registry.yarnpkg.com/@directus/sdk/-/sdk-10.3.5.tgz#2b61c00fd487db7d95e818049c3d5587e8fba886"
-  integrity sha512-ZLn85mfy3MWyIhTSrw46Eka1XdjoRIugZXNQy9w+zSEFm3hAzgB74N1qH7zARj9dGCWx+bAAno3n29Y2NqQv/A==
+"@directus/sdk@10.3.3":
+  version "10.3.3"
+  resolved "https://registry.yarnpkg.com/@directus/sdk/-/sdk-10.3.3.tgz#c78e2dd3babb2c1d5c1ef1ac41e5189e3f6ab8b4"
+  integrity sha512-58gw+QjkuIr0lJFRx5HwSp1ewAf7rjfV++eJqAmC13p7vif9wfJEcWcJwqXstYdvtJVUg+nB4O/CE0OBEtp5HQ==
   dependencies:
     axios "^0.27.2"
 
@@ -811,10 +811,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@ircsignpost/signpost-base@15.20.0":
-  version "15.20.0"
-  resolved "https://registry.yarnpkg.com/@ircsignpost/signpost-base/-/signpost-base-15.20.0.tgz#fbdb50a58c19f4d40e46e5c53c8ed9317d8fa43b"
-  integrity sha512-8+FTCkXPrYBRe2huUtU6CBPT5EIc93CTErt+PtP8RlvjahhYy3jrLJbB0TAB8Pad04Fjp2mCE1NU3crSAEs97w==
+"@ircsignpost/signpost-base@15.21.0":
+  version "15.21.0"
+  resolved "https://registry.yarnpkg.com/@ircsignpost/signpost-base/-/signpost-base-15.21.0.tgz#2b58a8209b577bb1625efde9dff71f38e5632993"
+  integrity sha512-bhMyrAL6papQy8Kgy+CC5KNhh3KxutEx+cAWxfVPg2L9sE3HTbb4IIpKRJ81yro3VOTR22txS69Ytj3w0exvCQ==
 
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"

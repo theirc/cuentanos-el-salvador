@@ -307,5 +307,6 @@ export const getStaticProps: GetStaticProps = async ({
       menuOverlayItems,
       footerLinks,
     },
+    revalidate: REVALIDATION_TIMEOUT_SECONDS,
   };
 };

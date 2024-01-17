@@ -316,7 +316,7 @@ export const getStaticProps: GetStaticProps = async ({
 
   if (service) {
     const body_safe = stripHtmlTags(service.description || '');
-    const title = service.name || '';
+    const title = service?.name || '';
     const query = title;
     const id = service.id;
     const locale = currentLocale;
@@ -362,7 +362,7 @@ export const getStaticProps: GetStaticProps = async ({
   }
 
   service.description = serviceTranslated[0].description;
-  service.name = serviceTranslated[0].name;
+  service.name = serviceTranslated[0]?.name;
 
   const [metaTagAttributes, content] = serviceTranslated[0].description
     ? extractMetaTags(serviceTranslated[0].description)
@@ -370,7 +370,7 @@ export const getStaticProps: GetStaticProps = async ({
 
   return {
     props: {
-      pageTitle: `${serviceTranslated[0].name} - ${SITE_TITLE}`,
+      pageTitle: `${serviceTranslated[0]?.name} - ${SITE_TITLE}`,
       serviceId: service.id,
       siteUrl: getSiteUrl(),
       preview: preview ?? false,

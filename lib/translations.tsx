@@ -104,6 +104,10 @@ export const HOME_PAGE_DYNAMIC_CONTENT_PLACEHOLDERS = [
   'default_seach_input_text',
   'default_contact_button_label',
   'default_view_service_label',
+  'default_service_type_label',
+  'default_providers_label',
+  'default_accessibility_label',
+  'default_populations_label',
 ];
 
 export const CATEGORY_PLACEHOLDERS = [
@@ -182,7 +186,11 @@ export function populateServiceMapStrings(dynamicContent: {
       informationTooltip: dynamicContent['default_distance_away_tooltip'],
     },
     popupStrings: populatePopupStrings(dynamicContent),
-    labelSearchInput: { label: dynamicContent['default_seach_input_text'] },
+    labelAccessibility: dynamicContent['default_accessibility_label'],
+    labelPopulations: dynamicContent['default_populations_label'],
+    labelProvider: dynamicContent['default_providers_label'],
+    labelServicesTypes: dynamicContent['default_service_type_label'],
+    searchListString: dynamicContent['default_search_hint'],
   };
 }
 

@@ -182,7 +182,6 @@ export function populateServiceMapStrings(dynamicContent: {
       informationTooltip: dynamicContent['default_distance_away_tooltip'],
     },
     popupStrings: populatePopupStrings(dynamicContent),
-    labelSearchInput: { label: dynamicContent['default_seach_input_text'] },
   };
 }
 
